@@ -1,0 +1,28 @@
+$width: 30%;
+$transition: 1s;
+
+h1 {
+  font-family: 'Raleway', sans-serif;
+  margin-left: 1.66%;
+  font-size: 23px;
+  font-weight: 800;
+  text-transform: uppercase;
+  width: $width;
+  border-bottom: 2px solid #f1f1f1;
+  padding-bottom: 20px;
+}
+
+img {
+  width: $width;
+  float: left;
+  margin:1.66%;
+  transition: $transition;
+}
+
+img:hover{
+  transform: scale(1.05);
+  transition: $transition;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  outline: none;
+}
