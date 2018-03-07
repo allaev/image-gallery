@@ -1,4 +1,4 @@
-# image-gallery
+# image-gallery ![CI status](https://img.shields.io/badge/style-flat-green.svg?longCache=true&style=flat)
 A simple responsive image gallery
 
 - HTML
